@@ -1,0 +1,96 @@
+body {
+    /* margin: 20px; */
+    /* max-width: 1440px;
+    min-width: 375px; */
+    /* font-family: sans-serif; */
+    margin:0;
+    font-size: 16px;
+    background-color: hsl(30, 54%, 90%);
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+}
+
+.card {
+    /* display: flex; */
+    /* flex: column wrap; */
+    /* align-items: start; */
+    /* position: relative; */
+    box-sizing: border-box;
+    margin: auto;
+    max-width: 700px;
+    /* max-height: 1490px; */
+    /* min-height: auto; */
+    /* min-width: 100%; */
+    background-color: hsl(0, 0%, 100%);
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+    padding: 30px;
+    border-radius: 10px;
+
+    font-family: "Outfit";
+    font-weight: 500;
+
+}
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.title, .subtitle {
+    font-family: "young-serif";
+    font-weight: 400;
+}
+
+.article--PreparationTime {
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.section_article {
+    box-sizing: border-box;
+    border-top: 0;
+}
+
+.section__list__item::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.subtitle {
+    color: hsl(14, 45%, 36%);
+}
+
+.subtitle--prepartionTime {
+    color: hsl(332, 51%, 32%);    
+}
+
+li::marker {
+    color:hsl(14, 45%, 36%);
+}
+
+li {
+    margin: 10px;
+}
+
+.section__table {
+    width: 80%;
+    border-collapse: collapse;
+    text-align: left;
+    /* font-family: sans-serif; */
+    /* box-shadow: 0 0 15px #0002; */
+    margin-bottom: 30px;
+}
+
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+th {
+    color:hsl(14, 45%, 36%);
+}
+
+
+
+

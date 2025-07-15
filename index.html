@@ -7,13 +7,16 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <!-- sylesheet -->
   <link rel="stylesheet" href="styles.css">
+  <!-- Link for add tipografia -->
+  <link rel="styles" href="fonts.css">
   
   <title>Frontend Mentor | Recipe page</title>
 
 </head>
 <body>
 
-  <!-- header -->
+  <div class="card">
+    <!-- header -->
   <header>
     <img src="/assets/images/image-omelette.jpeg" alt="Omelette dish served on a white plate">
     <h1 class="title1">Simple Omelette Recipe</h1>
@@ -27,17 +30,17 @@
   <!-- seccion de preparation time -->
   
   <section class="section">
-    <article class="section__article">
+    <article class="section__article article--PreparationTime">
       <h2 class="subtitle subtitle--prepartionTime">Preparation time</h2>
       
       <ul class="section__list list--preperationTime">
-      <li><strong>Total</strong>: Approximately 10 minutes</li>
-      <li>
+      <li class="section__list__item"><strong>Total</strong>: Approximately 10 minutes</li>
+      <li class="section__list__item">
         <strong>Preparation</strong>: 5 minutes
       </li>
-      <li>
+      <li class="section__list__item">
         <strong>Cooking</strong>: 5 minutes
-      </li>
+      </li >
       </ul>
     </article>
   </section>
@@ -133,6 +136,7 @@
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Alejo224</a>.
+  </div>
   </div>
 </body>
 </html>

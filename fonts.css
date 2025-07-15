@@ -1,0 +1,19 @@
+/* permitirnos definir un nuevo valor para una nueva propiedad  */
+
+/* Defifnir otra tipografia */
+@font-face {
+    font-family: "young-serif";
+    src: url("/assets/fonts/young-serif/YoungSerif-Regular.ttf") format("trueType");
+    font-weight: 400;
+};
+
+@font-face {
+    font-family: "Outfit";
+    src: url("/assets/fonts/outfit/Outfit-VariableFont_wght.ttf") format("trueType");
+    font-weight: 400;
+};
+@font-face {
+    font-family: "Outfit";
+    src: url("/assets/fonts/outfit/static/Outfit-Medium.ttf") format("trueType");
+    font-weight: 500;
+}
