@@ -8,7 +8,7 @@
   <!-- sylesheet -->
   <link rel="stylesheet" href="styles.css">
   <!-- Link for add tipografia -->
-  <link rel="styles" href="fonts.css">
+  <link rel="stylesheet" href="fonts.css">
   
   <title>Frontend Mentor | Recipe page</title>
 
@@ -17,40 +17,38 @@
 
   <div class="card">
     <!-- header -->
+  
   <header>
-    <img src="/assets/images/image-omelette.jpeg" alt="Omelette dish served on a white plate">
-    <h1 class="title1">Simple Omelette Recipe</h1>
+    <h1 class="title">Simple Omelette Recipe</h1>
 
     <p>
       An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
       to perfection, optionally filled with your choice of cheese, vegetables, or meats.
     </p>
   </header>
-
-  <!-- seccion de preparation time -->
-  
-  <section class="section">
-    <article class="section__article article--PreparationTime">
+  <!-- imagen -->
+  <img src="/assets/images/image-omelette.jpeg" alt="Omelette dish served on a white plate">
+  <!-- cuerpo principal -->
+  <main>
+    <!-- seccion de preparation time -->
+    <article class="article article--PreparationTime">
       <h2 class="subtitle subtitle--prepartionTime">Preparation time</h2>
       
-      <ul class="section__list list--preperationTime">
-      <li class="section__list__item"><strong>Total</strong>: Approximately 10 minutes</li>
-      <li class="section__list__item">
+      <ul class="article__list list--preperationTime">
+      <li class="article__list__item"><strong>Total</strong>: Approximately 10 minutes</li>
+      <li class="article__list__item">
         <strong>Preparation</strong>: 5 minutes
       </li>
-      <li class="section__list__item">
+      <li class="article__list__item">
         <strong>Cooking</strong>: 5 minutes
       </li >
       </ul>
     </article>
-  </section>
-  
-  <!-- sección de ingredientes  -->
-  <section class="section">
     
-    <article class="section__article">
+    <!-- sección de ingredientes  -->  
+    <article class="article">
     <h2 class="subtitle">Ingredients</h2>
-      <ul class="section__list">
+      <ul class="article__list">
         <li>2-3 large eggs</li>
         <li>Salt, to taste</li>
         <li>Pepper, to taste</li>
@@ -58,17 +56,14 @@
         <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
       </ul>
     </article>
-  </section>
 
-  <!-- linea  -->
-  <div class="linea"></div>
+    <!-- linea  -->
+    <div class="separador"></div>
 
-  <!-- seccion de instruciones -->
-  <section class="section">
-
-    <article class="section__article">
+    <!-- seccion de instruciones -->
+    <article class="article">
       <h2 class="subtitle">Instructions</h2>
-      <ol class="section__list">
+      <ol class="article__list">
         <li>
           <strong>Beat the eggs:</strong> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
           You can add a tablespoon of water or milk for a fluffier texture.
@@ -94,49 +89,50 @@
         </li>
       </ol>
     </article>
-  </section>
-  
-  <!-- SEPARADOR  -->
-  <div class="linea"></div>
+    
+    <!-- SEPARADOR  -->
+    <div class="separador"></div>
 
-  <!-- Sección de Nutricion -->
-  <section class="section">
-    <h2 class="subtitle">Nutrition</h2>
-    <p>
-    The table below shows nutritional values per serving without the additional fillings.
-    </p>
-    <!-- creacion de la tabla -->
+    <!-- Sección de Nutricion -->
+    <section class="section">
+      <h2 class="subtitle">Nutrition</h2>
+      <p>
+      The table below shows nutritional values per serving without the additional fillings.
+      </p>
+      <!-- creacion de la tabla -->
 
-    <table class="section__table">
-      <tbody>
-        <tr>
-          <td>Calories</td>
-          <th>277kcal</th>
-        </tr>
+      <table class="section__table">
+        <tbody>
+          <tr>
+            <td>Calories</td>
+            <th>277kcal</th>
+          </tr>
 
-        <tr>
-          <td>Carbs</td>
-          <th>0g</th>
-        </tr>
+          <tr>
+            <td>Carbs</td>
+            <th>0g</th>
+          </tr>
 
-        <tr>
-          <td>Protein</td>
-          <th>20g</th>
-        </tr>
-        <tr>
-          <td>Fat</td>
-          <th>22g</td>
-        </tr>
-        
-      </tbody>
-    </table>
+          <tr>
+            <td>Protein</td>
+            <th>20g</th>
+          </tr>
+          <tr>
+            <td>Fat</td>
+            <th>22g</td>
+          </tr>
+          
+        </tbody>
+      </table>
 
-  </section>
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Alejo224</a>.
-  </div>
+    </section>
+  </main>  
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Alejo224</a>.
+    </div>
+  </footer>
   </div>
 </body>
 </html>

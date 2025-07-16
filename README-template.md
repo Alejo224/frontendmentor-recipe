@@ -1,104 +1,111 @@
-# Frontend Mentor - Recipe page solution
+# Frontend Mentor - Recipe Page Solution
 
-This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+Esta es mi solución al desafío [Recipe page](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm) de Frontend Mentor. Este reto me permitió practicar buenas prácticas de HTML y CSS enfocadas en diseño responsivo, organización del código y manejo de tipografías personalizadas.
 
-## Table of contents
+## 📋 Tabla de contenido
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [🔍 Vista general](#-vista-general)
+  - [✅ El reto](#el-reto)
+  - [📸 Captura de pantalla](#captura-de-pantalla)
+  - [🔗 Enlaces](#enlaces)
+- [🛠️ Mi proceso](#-mi-proceso)
+  - [🧱 Tecnologías usadas](#tecnologías-usadas)
+  - [📚 Lo que aprendí](#lo-que-aprendí)
+  - [🧭 Desarrollo futuro](#desarrollo-futuro)
+  - [🔧 Recursos útiles](#recursos-útiles)
+- [👤 Autor](#autor)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+---
 
-## Overview
+## 🔍 Vista general
 
-### Screenshot
+### ✅ El reto
 
-![](./screenshot.jpg)
+Construir una página de receta a partir de un diseño provisto por Frontend Mentor, asegurando:
+- Semántica HTML5 correcta.
+- Diseño responsivo para dispositivos móviles y escritorio.
+- Buen uso de tipografías personalizadas locales.
+- Estructura limpia y ordenada del código.
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+### 📸 Captura de pantalla
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+![Recipe Screenshot](./design/desktop-design.jpg)
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+### 🔗 Enlaces
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+- 📄 Solución: [Mi repositorio en GitHub](https://github.com/Alejo224)
+- 🌐 Sitio en vivo: [Ver proyecto](https://github.com/Alejo224/frontendmentor-recipe)
 
-### Links
+---
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+## 🛠️ Mi proceso
 
-## My process
+### 🧱 Tecnologías usadas
 
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML5 semántico
+- CSS3
 - Flexbox
-- CSS Grid
+- Tipografías personalizadas locales (`@font-face`)
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- Media queries
+- Buenas prácticas con estructura modular de clases (`BEM-like`)
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+### 📚 Lo que aprendí
 
-### What I learned
+- Cómo enlazar y usar fuentes descargadas localmente con `@font-face`.
+- Cómo estructurar HTML semántico utilizando `header`, `main`, `section`, `article` y `footer`.
+- Uso de `flex` y `flex-wrap` para adaptar el diseño a distintos tamaños.
+- Aplicar `media queries` para mejorar la visualización en pantallas móviles.
+- Organización del código en capas: contenido (`HTML`), estilo (`styles.css`), y tipografías (`fonts.css`).
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+#### Ejemplo de `@font-face` personalizado:
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+@font-face {
+  font-family: "Outfit";
+  src: url("/assets/fonts/outfit/static/Outfit-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+}
+````
+
+#### Ejemplo de diseño responsivo:
+
+```css
+@media screen and (max-width: 480px) {
+  .card {
+    margin: 0;
+  }
+
+  img {
+    border-radius: 0;
+    margin: 0;
+  }
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+### 🧭 Desarrollo futuro
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+* Aplicar un sistema de diseño con `CSS Variables` para colores y tipografías.
+* Mejorar accesibilidad usando `aria-labels` y roles.
+* Implementar un modo oscuro como mejora extra.
 
-### Continued development
+### 🔧 Recursos útiles
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+* [CSS Tricks - @font-face Guide](https://css-tricks.com/snippets/css/using-font-face/)
+* [MDN - Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries)
+* [Frontend Mentor Tips](https://www.frontendmentor.io/resources)
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+---
 
-### Useful resources
+## 👤 Autor
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+* GitHub: [@Alejo224](https://github.com/Alejo224)
+* Frontend Mentor: [@Alejo224](https://www.frontendmentor.io/profile/Alejo224)
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+---
 
-## Author
+## ✅ Créditos
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Desafío realizado gracias a la plataforma [Frontend Mentor](https://www.frontendmentor.io). Inspiración tomada de su diseño base.
+Código y estructura realizados completamente por mí.
